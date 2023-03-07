@@ -1,0 +1,14 @@
+.counter > i,
+span {
+  font-size: 16rem;
+  margin: 3rem;
+}
+.counter > span {
+  font-size: 14rem;
+}
+.sub {
+  color: #ff4d4f;
+}
+.add {
+  color: #1890ff;
+}

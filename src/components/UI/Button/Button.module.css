@@ -1,0 +1,11 @@
+.u-btn {
+  height: 100%;
+  border-radius: 20rem;
+  outline: none;
+  padding: 0 20rem;
+  border: none;
+  font-size: 14rem;
+}
+.u-btn:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,41 @@
+.cart-balance {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+  background: #f3f5f7;
+  overflow: hidden;
+}
+.cart-balance-head {
+  padding: 0 20rem;
+  height: 40rem;
+  line-height: 40rem;
+  background-color: #fff;
+  margin-bottom: 30rem;
+}
+.cart-balance-body {
+  margin: auto;
+  width: 95%;
+  padding: 0 10rem;
+}
+.cart-balance-body-head {
+  height: 30rem;
+  line-height: 30rem;
+  font-weight: bold;
+  font-size: 14rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5rem;
+}
+.cart-balance-body-sum {
+  height: 30rem;
+  line-height: 30rem;
+  text-align: right;
+  font-size: 12rem;
+  font-weight: bold;
+}
+.cart-balance-body-main {
+  max-height: 400rem;
+  overflow: auto;
+}

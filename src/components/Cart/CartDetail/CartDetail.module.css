@@ -1,0 +1,25 @@
+.cart-detail {
+  position: fixed;
+  background-color: #fff;
+  max-height: 500rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.cart-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 8rem;
+  font-size: 10rem;
+}
+.cart-head p > i {
+  margin-right: 2rem;
+}
+.book-list {
+  overflow: auto;
+}

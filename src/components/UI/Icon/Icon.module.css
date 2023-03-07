@@ -1,0 +1,14 @@
+.spin::before {
+  animation: rate 0.5s ease infinite;
+}
+@keyframes rate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icon {
+  font-size: 14rem;
+}

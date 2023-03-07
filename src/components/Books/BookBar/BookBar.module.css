@@ -1,0 +1,49 @@
+.book-bar {
+  position: fixed;
+  bottom: 5rem;
+  width: 98%;
+  height: 40rem;
+  left: 50%;
+  right: 0;
+  margin-top: 10rem;
+  transform: translateX(-50%);
+  background-color: #000;
+  border-radius: 50rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 112;
+}
+.book-bar i {
+  font-size: 25rem;
+  vertical-align: middle;
+  margin-left: 8rem;
+}
+.not-active {
+  background-color: #333;
+  color: #fff;
+}
+.active,
+.not-active {
+  margin-right: -2rem;
+  font-weight: bold;
+}
+.active {
+  background-color: yellow;
+  color: #000;
+}
+.book-num {
+  position: absolute;
+  top: -2rem;
+  padding: 0 4rem;
+  left: 20rem;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12rem;
+  text-align: center;
+  line-height: 15rem;
+}
+.book-price {
+  margin-left: 10rem;
+}

@@ -1,0 +1,33 @@
+.cart-balance-item {
+  height: 50rem;
+  display: flex;
+  margin-bottom: 5rem;
+}
+.book-img {
+  width: 50rem;
+  margin-right: 10rem;
+}
+img {
+  width: 100%;
+}
+.book-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.price > span {
+  display: inline-block;
+  width: 14rem;
+  text-align: left;
+  font-size: 10rem;
+}
+.price {
+  font-size: 10rem;
+}
+.num {
+  font-size: 8rem;
+  margin-left: 0;
+}
+h2 {
+  margin-bottom: 5rem;
+}

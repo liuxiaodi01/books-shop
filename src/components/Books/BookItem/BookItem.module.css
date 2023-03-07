@@ -1,0 +1,48 @@
+.book-item {
+  margin: 5rem 0;
+  display: flex;
+  width: 100%;
+}
+.book-img {
+  flex: 0 0 100rem;
+}
+img {
+  width: 100%;
+  border-radius: 5rem;
+}
+.book-content {
+  position: relative;
+  margin-top: 15rem;
+  padding: 0 10rem;
+  width: 100%;
+}
+.book-content h2 {
+  font-weight: normal;
+  font-size: 15rem;
+}
+.book-content p {
+  margin-top: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #aaa;
+  font-size: 12rem;
+}
+.operation {
+  position: absolute;
+  bottom: 5rem;
+  left: 10rem;
+  width: calc(100% - 15rem);
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  font-size: 15rem;
+  color: red;
+  font-weight: bold;
+}
+.price::before {
+  content: "￥";
+}
