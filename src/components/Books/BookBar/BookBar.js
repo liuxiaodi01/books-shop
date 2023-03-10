@@ -2,7 +2,7 @@ import classes from "./BookBar.module.css";
 import Icon from "../../UI/Icon/Icon";
 import Button from "../../UI/Button/Button";
 import CartDetail from "../../Cart/CartDetail/CartDetail";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function BookBar(props) {
   const [showDetail, setShowDetail] = useState(false);
   const toggerDetailHandler = () => {
@@ -11,6 +11,11 @@ function BookBar(props) {
     }
     setShowDetail((preShowDetail) => (preShowDetail = !preShowDetail));
   };
+  useEffect(() => {
+    if (props.sumNum === 0) {
+      setShowDetail((preShowDetail) => (preShowDetail = false));
+    }
+  }, [props, setShowDetail]);
   return (
     <div className={classes["book-bar"]} onClick={toggerDetailHandler}>
       {showDetail === true && <CartDetail></CartDetail>}
